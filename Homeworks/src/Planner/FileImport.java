@@ -24,8 +24,6 @@ public class FileImport {
             } else {
                 System.out.println("File is not found");
             }
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
